@@ -4,7 +4,7 @@ import random
 import pymongo
 class DBINFORM:
     def __init__(self):
-        self.myclient= pymongo.MongoClient("mongodb+srv://glkingf:quaie712@cluster0.mnlfs.mongodb.net/?retryWrites=true&w=majority")
+        self.myclient= pymongo.MongoClient("mongodb+srv://glkingf:<password>@cluster0.mnlfs.mongodb.net/?retryWrites=true&w=majority")
         self.my_db=self.myclient["my_project"]
         self.my_coll=self.my_db["eb-bill"]
     def func_name():
